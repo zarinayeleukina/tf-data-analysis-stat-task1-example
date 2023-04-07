@@ -11,4 +11,4 @@ def solution(x: np.array) -> float:
     t = np.full(x.shape, 4)
     lt = x.sum()
     l = lt / t.mean()
-    return д
+    return l
